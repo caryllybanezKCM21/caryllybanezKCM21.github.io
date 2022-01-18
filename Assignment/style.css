@@ -1,0 +1,33 @@
+.static {
+    position: static;
+    left: 30px;
+}
+
+/* .relative {
+    position: relative;
+    left: 30px
+}
+.fixed {
+    position: fixed;
+    left: 30px;
+    top: 430px;
+    color: red;
+}
+.absolute {
+    position: absolute;
+    left: 30px;
+    top: 450px;
+    color: blue;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    border: 2px solid red;
+    background-color: cyan;
+} */
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    border: 5px solid green;
+}
