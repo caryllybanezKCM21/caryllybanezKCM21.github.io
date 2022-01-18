@@ -1,5 +1,5 @@
 body {
-    margin: O Auto;
+    margin: 0 auto;
     display: block;
 }
 
@@ -17,6 +17,7 @@ section {
 h1 { 
     margin: 30px auto 0; 
     text-transform: uppercase;
+    text-font: Arial, Helvetica, sans-serif;
 }
 
 h3 { margin: 5px auto; font-size: smaller;}
