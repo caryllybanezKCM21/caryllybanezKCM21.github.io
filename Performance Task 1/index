@@ -1,0 +1,81 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Performance Task #1 </title>
+        </head> 
+        <script>
+          // Assign the html elements to a variable
+function average (){
+    var Math = parseInt(document.getElementById("Math").value);
+    var English = parseInt(document.getElementById("English").value);
+    var Science = parseInt(document.getElementById("Science").value);
+    var Computer = parseInt(document.getElementById("Computer").value);
+    var Math = 0;
+    var Eglish =0;
+    var Science =0;
+    var Computer =0;
+}
+var message = document.querySelector("h2");
+var btn = document.querySelector("button");
+
+// Add an event handler for the button
+btn.addEventListener('click', function () {
+  message.textContent = "The average grade of: Caryll G. Ybanez is";
+});
+
+        </script>  
+        <style>.grade {
+          width: 50px;
+        }
+        
+        ul { padding: 0; }
+        
+        li {
+          list-style-type: none;
+          margin: 5px 0;
+        }
+        
+        #studentName { width: 120px}
+        label { display: inline-block; width: 100px; }
+        
+        button {
+          display: block;
+          margin-top: 15px;
+          padding: 10px;
+        }
+        </style>    
+        <body>
+          <h1>Compute Student Grade Average</h1>
+
+          <label id="studentName">Student Name</label>
+          <input class="Caryll G. Ybanez" type="text" />
+          
+          <ul>
+            <li>
+              <label>Math</label>
+              <input class="grade" type="text" />
+            </li>
+            
+            <li>
+              <label>English</label>
+              <input class="grade" type="text" />
+            </li>
+            
+            <li>
+              <label>Science</label>
+              <input class="grade" type="text" />
+            </li>
+            
+            <li>
+              <label>Computer</label>
+              <input class="grade" type="text" />
+            </li>
+            </ul>
+              <button>Compute for the Average Grade</button>
+          <p></p>
+          
+        </body>
+    </html>
