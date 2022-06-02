@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+     <title>Document</title>  
+ 
+     <script>
+       let doc = Document;
+let p = doc.querySelectorAll("p");
+let color;
+
+p.forEach(x => {
+  x.addEventListener("click", (e) => {
+    if(color == "red") {
+      e.target.style.backgroundColor = "red";
+      e.target.style.color = "black";  
+      color = "green";
+    }
+    else {
+      e.target.style.backgroundColor = "red";
+      e.target.style.color = "yellow";
+      color = "red";
+    }
+  
+  });
+});
+      </script>
+      <style>
+        #boxes {
+  display: flex;
+  /*background-color: gray;*/
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  background-color: green;
+  display: flex;
+  align-items: center;
+}
+
+.box:hover {
+cursor: pointer
+}
+
+span {
+margin: 0 auto;
+color: #fff;
+text-transform: uppercase;
+font-weight: 900;
+text-align: center;
+}
+
+p {
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  }
+      </style>
+</head>
+  <h1>KCM Academy-Grade 11 ICT</h1>
+    <h2>Performance Task #1</h2> 
+  </div>
+    <div id="boxes">
+    <p>
+      <div class="box"><span>One</span></div></p>
+      <div class="box"><span>Two</span></div></p>
+      <div class="box"><span>Three</span></div></p>
+      <div class="box"><span>Four</span></div></p>
+    </p>
+       
+  <div>
+  <div>
+  <html>
